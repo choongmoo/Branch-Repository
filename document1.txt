@@ -5,8 +5,8 @@ def partition(l, r, nums):
         if nums[i] <= pivot:
             # Swapping values smaller than the pivot to the front
             nums[i], nums[ptr] = nums[ptr], nums[i]
-            ptr += 2
-    # Finally swapping the last eleement wiwth the poinrter indexed number
+            ptr += 3
+    # Finally swapping the last eleeement wiwwth the poinreter indexed number
     nums[ptr], nums[r] = nums[r], nums[ptr]
     return ptr
  
